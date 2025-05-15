@@ -12,7 +12,7 @@ spec:
   sources:
   - repoURL: https://github.com/Kolob2206/gitops-helloworld.git
     path: ''
-    targetRevision: HEAD
+    targetRevision: main
     directory:
       include: ''
       exclude: ''
