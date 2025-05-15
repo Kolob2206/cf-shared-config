@@ -15,7 +15,7 @@ spec:
   source:
     directory:
       include: >-
-        {all-runtimes-all-clusters/**/*.yaml,all-runtimes-all-clusters/*.yaml,cf-gitops/cf-gitops-runtime.yaml,cf-gitops/gitops-helloworld-app.yaml,configurations/**/*.yaml,control-planes/**/*.yaml,control-planes/*.yaml,runtimes/cf-gitops/**/*.yaml,runtimes/cf-gitops/*.yaml}
+        {all-runtimes-all-clusters/**/*.yaml,all-runtimes-all-clusters/*.yaml,cf-gitops/cf-gitops-runtime.yaml,configurations/**/*.yaml,control-planes/**/*.yaml,control-planes/*.yaml,runtimes/cf-gitops/**/*.yaml,runtimes/cf-gitops/*.yaml}
       recurse: true
     path: resources
     repoURL: https://github.com/Kolob2206/cf-shared-config.git
